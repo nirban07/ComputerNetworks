@@ -1,0 +1,129 @@
+Computer Networking
+
+COmmonly oriented machine particluarly used for teaching educationa nd research
+
+Cold war
+1957 sputnik
+
+Protocols
+
+TCP
+Transmisson Protocol
+the data will reach its destination and not get corrupted ont he way
+
+UDP - User data gram protocol
+Do not care about the data reaching the destination 
+
+HTTP- Hyper text transfer protocol
+Used by web 
+
+IP address
+Packets
+Modem sets Local ip address
+Using the DHCP protocol
+
+reserverd ports
+
+
+Guided way for communication
+and Unguided way for communication
+
+me -> ISP -> UK 
+UK -> ISP -> Me 
+
+OSI model
+
+apllication model
+
+Presentation layer char to binary format -> tranlation changin the data
+abstraction-> believes that the data is taken cared of at the layer below
+
+
+Session
+establish Session
+
+Transport
+segmenttation sequencce number
+flow control
+error control
+check sum
+
+
+Network
+router 
+subnet masking
+best path djksitra
+
+Data Link
+logical addressing
+
+Physical layer
+
+TCP/IP Network portocol suit
+
+
+APPLICATION layer
+1. Users interact
+2. Whatsapp Browsers
+3. Where :Devices
+4. Client Server Architecture
+Peer to peer 
+
+Protocols
+
+ports :ephemeral ports
+
+
+Smtp send email
+pop download email
+
+
+Suppose there is a company that has to transport some material to another company.
+
+Physical layer
+to transfer the material(data) we have to use a truck.
+this truck is our physical layer.
+there are many devices used in this layer which can all some sort devices which carry material(data) 
+from one point to another
+
+Data Link layer 
+Now to reach from one source to destination the truck has to go across various check points.
+in this check points it the checking of valid material(data) is done to make sure no material has been 
+displaced and the another check of address to make sure the truck is on the right path is done.
+
+	This two checks are :
+	Medium access control (MAC) layer – responsible for controlling how devices in a network 
+	gain access to a medium and permission to transmit data.
+
+	Logical link control (LLC) layer – responsible for identifying and encapsulating network 
+	layer protocols, and controls error checking and frame synchronization.
+
+Network layer
+In the previous section we have been talking about only one truck that is carrying our
+data but often the data is more than just one truck.
+So to make sure all the trucks reach the destination as fast as possible the routing is 
+done in the Network layer
+
+Transport layer
+this layer is like the trucking company that under takes the shipment from one location to another
+it chops the down the data into segmaents and gives it to the layers below it.
+
+Session layer
+
+Now lets talk about how does a trucking company decide to take data.
+The trucking company will deliver the data as long as the contract is valid.
+This is validity and connection check up is done by the session layer.
+
+Presentation layer 
+The Presentation Layer handles protocol conversion, data encryption, data decryption, data compression,
+data decompression, incompatibility of data representation between OSs, and graphic commands.
+
+The presentation layer is like the contractor who takes the orders from the company and translates the 
+data into the information that is to be passed down below.
+
+
+Application layer 
+It is the user facing layer.
+
+It is the compnay itself that is working with the trucking to send the data to another company.
+
